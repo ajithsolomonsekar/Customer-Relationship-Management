@@ -15,7 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 #### Live Demo
-[Demo App](https://angular-app-demo.harryho.org): The demo is just a proof of concept. It doesn't have back-end API and all features of master branch.
+[Demo App](https://crm.yourfriendajith.org): The demo is just a proof of concept. It doesn't have back-end API and all features of master branch.
 
 #### Screenshots
 
@@ -31,7 +31,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ```bash
 # Clone project
-git clone https://github.com/harryho/ng-crm.git
+git clone https://github.com/yourfriendajith/Customer-Relationship-Management/tree/master/UI/ng-crm
 
 
 # Install Angular CLI
@@ -95,26 +95,3 @@ For detailed explanation on how things work, checkout following links please.
 * [angular-material](https://material.angular.io/)
 * [ng-charts](https://github.com/valor-software/ng2-charts)
 * [rxjs](https://rxjs.dev/api)
-
-
-#### Alternatives
-
-There are some similar projects respectively built on the Vue.js and React. If you have interests in those technical stacks. You can find and clone those repositories below.
-
-* [Vue-Crm](https://github.com/harryho/vue-crm.git).
-* [React-Crm](https://github.com/harryho/react-crm.git).
-
-
-###  Change log
-
-* Jun 2020 - Re-create the project with Angular CLI
-
-  The whole project is built from scratch based on the Angular CLI & Angular Material Schematics.
-
-* Oct 2018 - Rebase demo branch to master
-
-  New master doesn't rely on Json-Server as fake API. It will only have Readonly fake API. It means any new or updated data will be stored to any physical file. All test data will be rolled back after system restart.
-
-* Jan 2018 - Create an archived branch json-server
-
-  This branch was the master which used Json-Server as fake API. Considering the hiccup of setting Json-Server up and maintenance, it will be replaced by fake service ( Readonly fake API). You still can find clone this branch by branch name __json-server__, but it will be no longer updated. It is an archived branch.
